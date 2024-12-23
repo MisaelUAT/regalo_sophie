@@ -1,1 +1,74 @@
-<h1>Github Pages</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regalo para Sophie</title>
+    <link
+      rel="shortcut icon"
+      href="/img/gift-icon_34411.ico"
+      type="image/x-icon"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-pink-500">
+    <header
+      class="bg-fuchsia-400 text-white h-16 flex flex-row w-full items-center justify-center"
+    >
+      <h1 class="text-center text-lg font-bold font-serif">
+        Feliz Navidad Sophie Bonita
+      </h1>
+      <img src="/img/santaclaus_108480.png" class="min-[360px]:w-12 ms-1" />
+    </header>
+
+    <section class="flex flex-row justify-center">
+      <div
+        class="flex flex-row justify-center align-center bg-pink-300 min-[360px]:w-[95%] min-[360px]:rounded-md min-[360px]:h-72 mt-8 p-3"
+      >
+        <img
+          src="/img/flor.jpg"
+          class="min-[360px]:h-full min-[360px]:rounded-md"
+        />
+        <div class="min-[360px]:mt-10 min-[360px]:ms-2">
+          <p class="font-serif p-2 text-white font-bold text-justify min-[360px]:text-sm ">
+            "En un mundo repleto de flores, mi alma quedó atrapada por la
+            sublime belleza de la tuya.
+          </p>
+
+          <div class="flex flex-row justify-center">
+            <button
+              type="button"
+              class="bg-fuchsia-600 text-white text-white p-1 border-1 rounded-lg font-serif font-medium min-[360px]:hover:bg-fuchsia-700"
+              id="btn_open1"
+            >
+              Hazme Click
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div
+      class="fixed hidden inset-0 bg-fuchsia-400 bg-opacity-60 flex items-center justify-center"
+    id="modal-sect-1">
+      <div class="bg-fuchsia-600 p-8 rounded-lg shadow-lg min-[360px]:max-w-xs">
+        <h4 class="text-white font-bold font-serif text-lg">Querida Sophie</h4>
+        <p class="text-white text-justify">
+          Espero que estés teniendo un día maravilloso. Este regalo lo hice con
+          mucho amor y dedicación. Si estás leyendo esto, solo quiero que sepas
+          que eres muy importante para mí. Aunque ahora estemos en caminos
+          diferentes, mi amor por ti no ha cambiado y el aprecio que te tengo
+          sigue siendo el mismo. Quería expresar todo lo bello que pienso y
+          siento por ti, y compartir algunas palabras para esta Navidad.
+        </p>
+        <div class="w-full flex flex-row justify-center mt-2">
+            <button type="button" id="btn_close1" class="bg-fuchsia-400 text-white text-white p-1.5 border-1 rounded-lg font-serif font-medium min-[360px]:hover:bg-fuchsia-500">
+                Cerrar
+            </button>
+        </div>
+       
+      </div>
+    </div>
+  </body>
+  <script src="/scripts/index.js"></script>
+</html>
